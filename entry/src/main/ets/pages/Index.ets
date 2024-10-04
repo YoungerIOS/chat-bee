@@ -1,4 +1,5 @@
-import { TabBarClass } from '../../models/tab'
+import { TabBarClass } from '../models/tab'
+import Contacts from './Contact/Contact'
 
 @Entry
 @Component
@@ -43,12 +44,16 @@ struct Index {
     Tabs({index: $$this.currentIndex}) {
       ForEach(this.tabList, (item: TabBarClass, index: number) => {
         TabContent(){
-          Text(item.title)
+          if (item.name === 'contacts') {
+            Contacts()
+          }else {
+            Text(item.title)
+          }
         }
         .tabBar(this.customTabBar(item, index))
       })
     }
-    .animationDuration(50)
+    .animationDuration(20)
     .barPosition(BarPosition.End)
 
   }
