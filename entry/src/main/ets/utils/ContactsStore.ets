@@ -1,7 +1,7 @@
 //使用首选项存储通讯录联系人
 import { preferences } from '@kit.ArkData'
 import { ContactRepoName, ContactsKey, CurrentUserKey } from '../constant'
-import { UserInfo, UserInfoModel, currentUser, defaultUserList} from '../models/user'
+import { UserInfo, UserInfoModel, currentUser, defaultUserList} from '../models/User'
 import { Context } from '@ohos.arkui.UIContext'
 
 

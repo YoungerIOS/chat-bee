@@ -1,5 +1,5 @@
-import { UserInfo, UserInfoModel } from '../../models/user'
-import { ContactsStore } from '../../utils/contactsStore'
+import { UserInfo, UserInfoModel } from '../../models/User'
+import { ContactsStore } from '../../utils/ContactsStore'
 import { router } from '@kit.ArkUI'
 
 @Preview
@@ -54,7 +54,7 @@ struct Contacts {
           })
           .onClick(() => {
             router.pushUrl({
-              url: 'pages/ChatDetail/ChatDetail',
+              url: 'pages/chatDetail/ChatDetail',
               params: item
             })
           })

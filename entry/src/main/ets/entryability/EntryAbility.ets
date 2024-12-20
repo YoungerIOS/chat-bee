@@ -1,9 +1,9 @@
 import { AbilityConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { KeyboardAvoidMode, window } from '@kit.ArkUI';
-import { ContactsStore } from '../utils/contactsStore';
+import { ContactsStore } from '../utils/ContactsStore';
 import { CurrentUserKey } from '../constant';
-import { UserInfoModel } from '../models/user';
+import { UserInfoModel } from '../models/User';
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {

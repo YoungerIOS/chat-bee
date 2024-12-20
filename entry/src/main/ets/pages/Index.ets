@@ -1,5 +1,5 @@
-import { TabBarClass } from '../models/tab'
-import Contacts from './Contact/Contact'
+import { TabBarClass } from '../models/Tab'
+import Contacts from './contact/Contact'
 
 @Entry
 @Component

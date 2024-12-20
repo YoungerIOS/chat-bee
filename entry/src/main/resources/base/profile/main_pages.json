@@ -1,6 +1,6 @@
 {
   "src": [
     "pages/Index",
-    "pages/ChatDetail/ChatDetail"
+    "pages/chatDetail/ChatDetail"
   ]
 }

@@ -1,7 +1,7 @@
 import { router } from '@kit.ArkUI'
-import { UserInfo, UserInfoModel } from '../../models/user'
+import { UserInfo, UserInfoModel } from '../../models/User'
 import { CurrentUserKey } from '../../constant/index'
-import BottomInput from './Components/BottomInput'
+import BottomInput from './components/BottomInput'
 
 @Entry
 @Component
